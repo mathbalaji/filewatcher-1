@@ -4,8 +4,7 @@ Usage: python filewatcherv3.py
 1) Install the python watchdog library to listen for events:
     sudo pip install watchdog
     sqlite3 should come with the python library. Else, install sudo apt-get install sqlite3
-    * Started adding in a dependency checker for watchdog. It currently doesn't work so just manually install it 
-    prior to operation.
+    * Will be adding a dependency checker so it auto installs everything.
     
 2) In filewatcherv3.py, change the file path to the folder you want to monitor. 
     - Drag contents from pyinotifyTest to triggerFile. TriggerFile is the filepath being monitored.
