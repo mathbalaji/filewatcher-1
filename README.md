@@ -1,8 +1,8 @@
 Suggested platform: Ubuntu 14.04
 Usage: python filewatcherv3.py
 
-The intent of this program was to auto analyze a batch of pcaps copied into a specific directory.
-This script functions as a framework for this project where modules can be easily added and triggered by certain events.
+The intent of this program is to auto analyze a batch of pcaps copied into a specific directory.
+The script functions as a framework for this project where modules can be easily added and triggered by certain events.
 Compressed files will be uncompressed and subdirectories recurisvely scanned for the target extensions. 
 
 1) Install the python watchdog library to listen for events:
